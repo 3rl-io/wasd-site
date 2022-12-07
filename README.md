@@ -30,4 +30,6 @@ Option 2. Download this repository and run the `public` directory on your web se
 
 ## Want more?
 
-To see the full feature set in action, including HUD controls, video playback, links, animations, and keybindings, try our [site repo](https://github.com/3axis-io/site) (uses Angular 14)
+To see the full feature set in action, including HUD controls, video playback, links, animations, GLTF models, and keybindings, try our [site repo](https://github.com/3axis-io/site) (uses Angular 14)
+
+## [Compare with aframevr](https://gist.github.com/kkota1/d745dc81feb78aad7cf7a0aeb928cc35)
