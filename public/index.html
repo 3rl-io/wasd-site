@@ -1,0 +1,16 @@
+<ax-scene id="hello-world" hdr-environment="url: day.hdr">
+    <ax-camera movement-controls="floor:15;"><ax-reticle /></ax-camera>
+    <ax-plane interactor="fastTravel: 15" material="src: marble.jpg; repeat: 18 18" height="500" width="500" rotation="-90 0 0"></ax-plane>
+    <ax-light type="ambient" color="#555"></ax-light>
+    <ax-sphere radius="5" color="grey" inherit-hdr position="0 5 -30" no-go="30"></ax-sphere>
+</ax-scene>
+
+<script src="3axis-core.min.js"></script>
+<script>
+    //pick up where you left off. Useful in dev. Defaults to false
+    axis.settings.rememberPosition = true;
+
+    //Check these out for other persisted (localStorage) controls and settings
+    //anti-aliasing, gravity, invertY, look sensitivity, speed multiplier
+    console.log(axis.settings);
+</script>
