@@ -1,16 +1,31 @@
 <ax-scene id="hello-world" hdr-environment="url: day.hdr">
     <ax-camera movement-controls="floor:15;"><ax-reticle /></ax-camera>
-    <ax-plane interactor="fastTravel: 15" material="src: marble.jpg; repeat: 18 18" height="500" width="500" rotation="-90 0 0"></ax-plane>
+    <ax-plane interactor="fastTravel: 15" material="src: marble.jpg; repeat: 18 18"
+              height="500" width="500" rotation="-90 0 0" shadow="cast: false"></ax-plane>
     <ax-light type="ambient" color="#555"></ax-light>
-    <ax-sphere radius="5" color="grey" inherit-hdr position="0 5 -30" no-go="30"></ax-sphere>
+    <ax-obj position="0 0 -30" no-go="10">
+        <ax-light position="20 30 0" intensity=".7" distance="200" type="point" cast-shadow="true"
+                  color="#04f" shadow-radius="5" if-shadows-enabled></ax-light>
+        <ax-sphere radius="5" color="grey" inherit-hdr position="0 15 0" id="mySphere"
+                   shadow="receive: false" interactor="fastTravel: 15"></ax-sphere>
+        <ax-box color="#012" inherit-hdr position="20 15 0" id="myBox" depth="5" width="5" height="5"
+                   shadow="receive: false" interactor="fastTravel: 15" visible="false"></ax-box>
+    </ax-obj>
 </ax-scene>
-
 <script src="3axis-core.min.js"></script>
 <script>
-    //pick up where you left off. Useful in dev. Defaults to false
+    //Pick up where you left off. Useful in dev. Defaults to false
     axis.settings.rememberPosition = true;
 
-    //Check these out for other persisted (localStorage) controls and settings
+    //Check axis.settings out for other persisted (localStorage) controls and settings
     //anti-aliasing, gravity, invertY, look sensitivity, speed multiplier
-    console.log(axis.settings);
+
+    //basic interactor events
+    const sphere = document.getElementById('mySphere');
+    function toggleBox(visible) {
+        document.getElementById('myBox').setAttribute('visible', visible);
+        document.getElementById('hello-world').renderer.shadowMap.needsUpdate = true;
+    }
+    sphere.addEventListener('reticleenter', () => toggleBox(true));
+    sphere.addEventListener('reticleleave', ()=> toggleBox(false));
 </script>
