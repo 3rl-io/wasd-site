@@ -10,6 +10,12 @@
                    shadow="receive: false" interactor="fastTravel: 15"></ax-sphere>
         <ax-box color="#012" inherit-hdr position="20 15 0" id="myBox" depth="5" width="5" height="5"
                    shadow="receive: false" interactor="fastTravel: 15" visible="false"></ax-box>
+        <ax-obj position="-60 20 0" rotation="0 20 0">
+            <ax-video src="crab.mov" thumbnail="crab-thumb.jpg" height="32" width="18" position="-20 0 0"></ax-video>
+            <ax-video src="bird.mov" thumbnail="bird-thumb.jpg" height="32" width="18" volume=".5" border="1" border-color="#345"></ax-video>
+        </ax-obj>
+        <ax-image-link src="ai-showroom.jpg" height="32" width="32" position="60 20 0" rotation="0 -20 0"
+                       href="https://3axis.io/demo" border-color="#dc583f" hover-border-color="#eea650"></ax-image-link>
     </ax-obj>
 </ax-scene>
 <script src="3axis-core.min.js"></script>
