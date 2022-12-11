@@ -32,8 +32,10 @@ Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
 
-## Want more?
-
-To see the full feature set in action, including HUD controls, animations, GLTF models, and keybindings, try our [site repo](https://github.com/3axis-io/site) (uses Angular 14)
+## [Follow on Twitter for updates](https://twitter.com/3axis_io)
 
 ## [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/aframe-diff.md)
+
+## Deployment
+
+During the beta phase and for the foreseeable future, scenes will only work on localhost due to the proprietary engine. If you are interested in deploying your scene(s) to 3axis.io or your own website, please DM us on [Twitter](https://twitter.com/3axis_io).
