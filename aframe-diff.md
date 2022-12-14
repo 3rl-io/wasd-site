@@ -3,8 +3,6 @@ Changelog since Oct 04, 2020
 ---------------------------------------------
 New Features:
 
-Declarative reticle-object interactions and keybindings (good for product configurators)
-
 Added physics/controls
 - jetpack and gravity, plus configs for floor/ceiling (y) invisible walls
 - config for x/z invisible walls
@@ -21,11 +19,18 @@ Added graphics settings
 - "if-shadows-enabled" and "if-shadows-disabled" directives
     - change lighting and assets based on the user's shadows setting
 
+Declarative reticle-object interactions and keybindings
+
 Intuitive video playback system
 - image thumbnail option
 - play button on hover
 - the currently-playing video is paused if the users clicks play on another video
 - the currently-playing video is paused if the user exits the scene
+- customizable border width and color
+
+Image links
+- click to open url in new tab
+- customizable border and hover-border colors
 
 ---------------------------------------------
 
