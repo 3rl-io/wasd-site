@@ -6,7 +6,7 @@ This is the fastest way to build a 3D website.
 
 [Live Demo](https://3axis.io/vanilla.html)
 
-## [25 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html) gets you
+## [30 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html) gets you
 
 - hdr environment
 - jetpack, right click to fast travel
@@ -15,6 +15,8 @@ This is the fastest way to build a 3D website.
 - anti-aliasing and shadow settings
 - basic geometries
 - basic object interactions
+- video playback system
+- image hyperlinks
 
 ## Try it
 
@@ -30,8 +32,10 @@ Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
 
-## Want more?
-
-To see the full feature set in action, including HUD controls, video playback, links, animations, GLTF models, and keybindings, try our [site repo](https://github.com/3axis-io/site) (uses Angular 14)
+## [Follow on Twitter for updates](https://twitter.com/3axis_io)
 
 ## [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/aframe-diff.md)
+
+## Deployment
+
+During the beta phase and for the foreseeable future, scenes will only work on localhost due to the proprietary engine. If you are interested in deploying your scene(s) to 3axis.io or your own website, please DM us on [Twitter](https://twitter.com/3axis_io).
