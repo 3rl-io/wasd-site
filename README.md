@@ -6,9 +6,10 @@ This is the fastest way to build a 3D website.
 
 [Live Demo](https://3axis.io/vanilla.html)
 
-## [30 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html) gets you
+## [32 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html) gets you
 
 - hdr environment
+- gltf models and envmaps
 - jetpack, right click to fast travel
 - invisible walls and collision detection
 - look sensitivity, invert Y, gravity settings
