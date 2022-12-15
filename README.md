@@ -38,4 +38,9 @@ Option 2. Download this repository and run the `public` directory on your web se
 
 ## Deployment
 
-During the beta phase and for the foreseeable future, scenes will only work on localhost due to the proprietary engine. If you are interested in deploying your scene(s) to 3axis.io or your own website, please DM us on [Twitter](https://twitter.com/3axis_io).
+[Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
+
+You will receive a token and instructions that you can use for all beta and v1 deployments. One time fee per subdomain for perptual use.
+
+
+
