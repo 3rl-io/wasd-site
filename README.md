@@ -40,7 +40,7 @@ Option 2. Download this repository and run the `public` directory on your web se
 
 [Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
 
-You will receive a token and instructions that you can use for all beta and v1 deployments. One time fee per subdomain for perptual use.
+You will receive a token and instructions that you can use for all beta and v1 deployments. One time fee per subdomain for lifetime use.
 
 
 
