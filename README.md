@@ -2,9 +2,11 @@
 
 This is the fastest way to build a 3D website.
 
+[Live Demo](https://3axis.io/vanilla.html)
+
 ![vanilla gif](https://user-images.githubusercontent.com/41310107/206098090-6cedcfca-f82e-44b3-b823-dddb8fee0b51.gif)
 
-[Live Demo](https://3axis.io/vanilla.html)
+<img src="https://user-images.githubusercontent.com/41310107/207973983-230cc689-09dc-4a98-bee2-2f42e56cfb32.png" alt="vids and gltf" style="width:400px;"/>
 
 ## [32 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html) gets you
 
