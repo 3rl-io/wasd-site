@@ -35,15 +35,18 @@ Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
 
+## [Graphics/controls/UX settings](https://github.com/3axis-io/vanilla/blob/master/docs/settings.md)
+
 ## [Follow on Twitter for updates](https://twitter.com/3axis_io)
 
-## [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/aframe-diff.md)
+## [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/docs/aframe-diff.md)
 
 ## Deployment
+Free forever on localhost
 
-[Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
+Production: [Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
 
-You will receive a token and instructions that you can use for all beta and v1 deployments. One time fee per subdomain for lifetime use.
+You will receive a token and instructions that you can use for all beta and v1 builds (3axis-core.min.js). One time fee per subdomain for lifetime use.
 
 
 
