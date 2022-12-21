@@ -35,11 +35,13 @@ Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
 
-## [Graphics, controls, and UX settings](https://github.com/3axis-io/vanilla/blob/master/docs/settings.md)
+## Customization
 
-## [Invisible walls and collisions](https://github.com/3axis-io/vanilla/blob/master/docs/collisions.md)
+### [Graphics, controls, and UX settings](https://github.com/3axis-io/vanilla/blob/master/docs/settings.md)
 
-## [Interactors and keybindings](https://github.com/3axis-io/vanilla/blob/master/docs/interactors.md)
+### [Invisible walls and collisions](https://github.com/3axis-io/vanilla/blob/master/docs/collisions.md)
+
+### [Interactors and keybindings](https://github.com/3axis-io/vanilla/blob/master/docs/interactors.md)
 
 ## Deployment
 Free forever on localhost
