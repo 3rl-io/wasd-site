@@ -42,9 +42,10 @@ Option 2. Download this repository and run the `public` directory on your web se
 ### [Interactors and keybindings](https://github.com/3axis-io/vanilla/blob/master/docs/interactors.md)
 
 ## Deployment
-Free forever on localhost
+Free forever on your computer (use with screen capture to share videos of your 3D work)
 
-Production: [Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
+Hosting on a website:
+[Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
 
 You will receive a token and instructions that you can use for all beta and v1 builds (3axis-core.min.js). One time fee per subdomain for lifetime use.
 
