@@ -1,6 +1,11 @@
 3axis fork of aframe/master
 Changelog since Oct 04, 2020
 ---------------------------------------------
+
+The purpose of this fork is to focus on desktop UX and performance on integrated graphics, with customization available for high-end GPUs. Additionally, this will perform better with reactive-DOM libaries.<br><br>
+⚠️ All VR/AR functionality has been removed.
+
+---------------------------------------------
 New Features:
 
 Added physics/controls
