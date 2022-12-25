@@ -40,4 +40,5 @@ inactivityTimeout (int)<br>
 
 rememberPosition (boolean)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User's position and camera rotation are stored for their next visit<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults to false
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults to false<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use id attribute on <ax-scene> to remember unique positions for multiple scenes
