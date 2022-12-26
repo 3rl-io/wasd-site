@@ -32,24 +32,29 @@ node index
 Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
-
-## Customization
-
-### [Graphics, controls, and UX settings](https://github.com/3axis-io/vanilla/blob/master/docs/settings.md)
-
-### [Invisible walls and collisions](https://github.com/3axis-io/vanilla/blob/master/docs/collisions.md)
-
-### [Interactors and keybindings](https://github.com/3axis-io/vanilla/blob/master/docs/interactors.md)
-
+## [Documentation](https://github.com/3axis-io/vanilla/blob/master/docs/index.md)
 ## Deployment
-Free forever on your computer (use with screen capture to share videos of your 3D work)
+Free forever on your computer
+- use with screen capture to share videos of your 3D work
+- arrange news, social, and/or financial feeds spatially
 
-Hosting on a website:
-[Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
+Go live on a website
+- Desktop-friendly portfolios for AR/VR developers and designers
+- Showrooms for complex products or ideas
+- Immersive eal estate tours
 
-You will receive a token and instructions that you can use for all beta and v1 builds (3axis-core.min.js). One time fee per subdomain for lifetime use.
 
+- [Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
+- Perpetual license for all beta and v1 builds, one per subdomain
 
-## [Follow on Twitter for updates](https://twitter.com/3axis_io)
+## Coming soon
+Beta to-do list (Jan/Feb 2023)
+- Built-in default HUD, with option to override
+- Default redirect page for mobile devices. with option to override
 
-## [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/docs/aframe-diff.md)
+Tentative v1 priorities (March-June 2023)
+- React and Next.js wrappers
+- Product configurator example with 5 lines of HTML
+- Built-in helpers for lighting, displays, and animation
+
+## [Follow on Twitter for updates](https://twitter.com/3axis_io)<br><br><br>
