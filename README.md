@@ -32,7 +32,7 @@ node index
 Open localhost:8000 in your browser
 
 Option 2. Download this repository and run the `public` directory on your web server of choice
-## [Documentation](https://github.com/3axis-io/vanilla/blob/master/docs/index.md)
+## [More features](https://github.com/3axis-io/vanilla/blob/master/docs/index.md)
 ## Deployment
 Free forever on your computer
 - use with screen capture to share videos of your 3D work
@@ -41,7 +41,7 @@ Free forever on your computer
 Go live on a website
 - Desktop-friendly portfolios for AR/VR developers and designers
 - Showrooms for complex products or ideas
-- Immersive eal estate tours
+- Immersive real estate tours
 
 
 - [Early adopter licenses are available through 1/15/23 for production use](https://square.link/u/WDWegPMr)
