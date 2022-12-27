@@ -53,8 +53,9 @@ Beta to-do list (Jan/Feb 2023)
 - Default redirect page for mobile devices. with option to override
 
 Tentative v1 priorities (March-June 2023)
-- React and Next.js wrappers
 - Product configurator example with 5 lines of HTML
+- Typing commands/messages without exiting pointerlock
+- React and Next.js wrappers
 - Built-in helpers for lighting, displays, and animation
 
 ## [Follow on Twitter for updates](https://twitter.com/3axis_io)<br><br><br>
