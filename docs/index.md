@@ -11,4 +11,12 @@ Configurable keypresses
 Invisible walls and cylinders
 
 ---
+### [Performance Tweaks](https://github.com/3axis-io/vanilla/blob/master/docs/performance.md)
+Making a smooth experience for the most users
+
+---
+### [Using three.js directly](https://github.com/3axis-io/vanilla/blob/master/docs/three-access.md)
+For more granular control after using markup for the basics
+
+---
 ### [Compare with aframevr](https://github.com/3axis-io/vanilla/blob/master/docs/aframe-diff.md)
