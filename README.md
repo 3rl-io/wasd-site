@@ -50,12 +50,13 @@ Go live on a website
 ## Coming soon
 Beta to-do list (Jan/Feb 2023)
 - Built-in default HUD, with option to override
-- Default redirect page for mobile devices. with option to override
+- Default redirect page for mobile devices, with option to override
+- HTML embeds with pointer lock interactions
 
 Tentative v1 priorities (March-June 2023)
 - Product configurator example with 5 lines of HTML
 - Typing commands/messages without exiting pointerlock
 - React and Next.js wrappers
-- Built-in helpers for lighting, displays, and animation
+- More built-in helpers for lighting, displays, and animation
 
 ## [Follow on Twitter for updates](https://twitter.com/3axis_io)<br><br><br>
