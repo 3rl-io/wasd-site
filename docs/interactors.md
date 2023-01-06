@@ -1,4 +1,4 @@
-## Interactors and keybindings
+## Interactors
 
 Each tag based on ax-obj (gltfs, shapes, videos, and images) can have an interactor directive.
 
@@ -23,6 +23,8 @@ hideReticle (boolean)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether to hide reticle on hover<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults to false
 
+## Keybindings
+
 keyBindings (string)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comma-delimited list of letters and numbers, excluding W,A,S,D<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults to none
@@ -30,3 +32,8 @@ keyBindings (string)<br>
 `<ax-obj interactor="keyBindings:1,Q,E"></ax-obj>`
 
 This will create the new events press1, pressQ, and pressE that also return intersection data when those keys are pressed.
+
+### Reserved keys
+
+During pointer lock, the W, A, S, D, Spacebar, Left Shift, and Enter keys should be considered reserved<br><br>
+Outside of pointer lock, Left Shift and Enter keys should be considered reserved when `document.activeElement.tagName === 'BODY'`
