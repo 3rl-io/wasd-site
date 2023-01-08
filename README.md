@@ -52,6 +52,8 @@ Beta to-do list (Jan/Feb 2023)
 - Built-in default HUD, with option to override
 - Default redirect page for mobile devices, with option to override
 - HTML embeds with pointer lock interactions
+- add global volume setting for ax-video in axis.settings
+- Code sandbox on website to try markup without webserver
 
 Tentative v1 priorities (March-June 2023)
 - Product configurator example with 5 lines of HTML
