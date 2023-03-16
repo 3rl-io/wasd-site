@@ -1,12 +1,11 @@
-<ax-scene id="hello-world" hdr-environment="url: assets/day.hdr">
+<ax-scene id="hello-world" hdr-environment="url: assets/city.hdr">
     <ax-camera movement-controls="floor:15;"><ax-reticle /></ax-camera>
     <ax-plane interactor="fastTravel: 15" material="src: assets/marble.jpg; repeat: 18 18"
               height="500" width="500" rotation="-90 0 0" shadow="cast: false"></ax-plane>
     <ax-light type="ambient" color="#555"></ax-light>
     <ax-obj position="0 0 -30" no-go="10">
-        <ax-obj position="-60 20 0" rotation="0 20 0">
-            <ax-video src="assets/crab.mov" thumbnail="assets/crab-thumb.jpg" height="32" width="18" position="-20 0 0"></ax-video>
-            <ax-video src="assets/bird.mov" thumbnail="assets/bird-thumb.jpg" height="32" width="18" volume=".5" border="1" border-color="#345"></ax-video>
+        <ax-obj position="-75 20 10" rotation="0 20 0">
+            <ax-video src="assets/widgets.mp4" height="27" width="48" border="1" border-color="#345"></ax-video>
         </ax-obj>
         <ax-gltf-model src="assets/DamagedHelmet.glb" position="-25 20 0" scale="10 10 10" inherit-hdr shadow="receive: false" interactor="fastTravel: 30" follow-camera></ax-gltf-model>
         <ax-sphere radius="5" color="grey" inherit-hdr position="0 15 0" id="mySphere"
@@ -15,11 +14,10 @@
                 shadow="receive: false" interactor="fastTravel: 15" visible="false"></ax-box>
         <ax-light position="20 30 0" intensity=".7" distance="200" type="point" cast-shadow="true"
                   color="#04f" shadow-radius="5" if-shadows-enabled></ax-light>
-        <ax-image-link src="assets/ai-showroom.jpg" height="32" width="32" position="60 20 0" rotation="0 -20 0"
-                       href="https://3axis.io/demo" border-color="#dc583f" hover-border-color="#eea650"></ax-image-link>
+        <ax-iframe-tab src="https://3axis.io" position="70 20 10" rotation="0 -20 0" collider="40"></ax-iframe-tab>
     </ax-obj>
 </ax-scene>
-<script src="https://3axis.io/assets/general/scripts/3axis-core.min.js?v=1.05"></script>
+<script src="https://3axis.io/assets/general/scripts/3axis-core.min.js?v=1.06"></script>
 <script>
     //Pick up where you left off. Useful in dev. Defaults to false
     axis.settings.rememberPosition = true;

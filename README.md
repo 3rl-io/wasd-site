@@ -6,9 +6,9 @@ This is the fastest way to build a 3D interface.
 
 [Live Demo](https://3axis.io/vanilla.html)
 
-![vanilla gif](https://user-images.githubusercontent.com/41310107/206098090-6cedcfca-f82e-44b3-b823-dddb8fee0b51.gif)&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/41310107/207973983-230cc689-09dc-4a98-bee2-2f42e56cfb32.png" alt="vids and gltf" style="width:400px;"/>
+![vanilla gif](https://user-images.githubusercontent.com/41310107/225700844-f7115e34-1df7-4876-9cbb-a32c89fd5558.gif)
 
-## [32 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html)
+## [30 lines of HTML/JS](https://github.com/3axis-io/vanilla/blob/master/public/index.html)
 
 - hdr environment
 - gltf models and envmaps
@@ -16,6 +16,7 @@ This is the fastest way to build a 3D interface.
 - invisible walls and collision detection
 - look sensitivity, invert Y, gravity settings
 - anti-aliasing and shadow settings
+- embeddable HTML
 - basic geometries
 - basic object interactions
 - video playback system
