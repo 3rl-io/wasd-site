@@ -1,4 +1,4 @@
-# 3axis quick start example
+# FPS website example
 
 This is the fastest way to build a 3D website.
 
