@@ -1,8 +1,6 @@
 # 3axis quick start example
 
-This is the fastest way to build a 3D interface.
-
-⚠️ Support is no longer available for public-facing websites
+This is the fastest way to build a 3D website.
 
 [Live Demo](https://3axis.io/vanilla.html)
 
@@ -16,7 +14,7 @@ This is the fastest way to build a 3D interface.
 - invisible walls and collision detection
 - look sensitivity, invert Y, gravity settings
 - anti-aliasing and shadow settings
-- embeddable HTML
+- embedded HTML/iframes
 - basic geometries
 - basic object interactions
 - video playback system

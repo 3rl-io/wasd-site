@@ -37,6 +37,8 @@ Image links
 - click to open url in new tab
 - customizable border and hover-border colors
 
+Embeddable HTML with `ax-html` and `ax-iframe-tab`
+
 ---------------------------------------------
 
 Performance Improvements
