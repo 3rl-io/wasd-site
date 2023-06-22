@@ -1,4 +1,4 @@
-3axis fork of aframe/master
+3RL fork of aframe/master
 Changelog since Oct 04, 2020
 ---------------------------------------------
 
@@ -24,6 +24,8 @@ Added graphics settings
 - "if-shadows-enabled" and "if-shadows-disabled" directives
     - change lighting and assets based on the user's shadows setting
 
+Embeddable HTML with `ax-html` and `ax-iframe-tab`
+
 Declarative reticle-object interactions and keybindings
 
 Intuitive video playback system
@@ -36,8 +38,6 @@ Intuitive video playback system
 Image links
 - click to open url in new tab
 - customizable border and hover-border colors
-
-Embeddable HTML with `ax-html` and `ax-iframe-tab`
 
 ---------------------------------------------
 
