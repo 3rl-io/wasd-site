@@ -35,4 +35,4 @@ Open localhost:8000 in your browser
 Option 2. Download this repository and run the `public` directory on your web server of choice
 ## [More features](https://github.com/3rl-io/wasd-site/blob/master/docs/index.md)
 
-## [Follow on Instagram for updates](https://www.instagram.com/3axis.io/)<br><br><br>
+## [Follow on Instagram for updates](https://www.instagram.com/my.3rl/)<br><br><br>

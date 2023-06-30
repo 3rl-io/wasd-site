@@ -5,10 +5,10 @@ The global variable for three is `window.THREE`
 Given the following markup...
 
 ```html
-<ax-scene id="myScene">
-    <ax-camera><ax-reticle /></ax-camera>
-    <ax-obj id="myObj"></ax-obj>
-</ax-scene>
+<rl-scene id="myScene">
+    <rl-camera><rl-reticle /></rl-camera>
+    <rl-obj id="myObj"></rl-obj>
+</rl-scene>
 ```
 
 ... you can access original three objects like so

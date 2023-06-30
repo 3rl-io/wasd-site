@@ -1,7 +1,7 @@
 # Graphics/controls/UX settings
-Saved per-user in localStorage. Get and set via window.axis.settings.
+Saved per-user in localStorage. Get and set via window.RL.settings.
 
-E.g. `window.axis.settings.shadows = false`
+E.g. `window.RL.settings.shadows = false`
 
 ## Graphics
 aa (int)<br>
@@ -41,4 +41,4 @@ inactivityTimeout (int)<br>
 rememberPosition (boolean)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User's position and camera rotation are stored for their next visit<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defaults to false<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use id attribute on <ax-scene> to remember unique positions for multiple scenes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use id attribute on <rl-scene> to remember unique positions for multiple scenes

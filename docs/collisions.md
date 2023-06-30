@@ -2,7 +2,7 @@
 
 The scene boundaries are defined as a rectangular prism. These are configured with the camera's movement-controls directive.
 
-`<ax-camera movement-controls="floor:15; ceiling: 200; zBoundary: 250; xBoundary: 250;" position="0 15 0">`
+`<rl-camera movement-controls="floor:15; ceiling: 200; zBoundary: 250; xBoundary: 250;" position="0 15 0">`
 
 floor: minimum Y value (defaults to 0)
 
@@ -16,7 +16,7 @@ zBoundary: absolute value of Z-axis walls (defaults to 300)
 
 no-go directive
 
-`<ax-obj no-go="10"></ax-obj>`
+`<rl-obj no-go="10"></rl-obj>`
 
 Cylinders that extend infinitely along the Y-axis. Can be used to prevent users from walking into models.
 
