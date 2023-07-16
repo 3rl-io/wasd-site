@@ -2,7 +2,7 @@
 
 This is the fastest way to build a 3D website.
 
-[Live Demo](https://3axis.io/wasd-site.html)
+[Live Demo](https://3rl.io/wasd-site.html)
 
 ![wasd-site gif](https://user-images.githubusercontent.com/41310107/225700844-f7115e34-1df7-4876-9cbb-a32c89fd5558.gif)
 
