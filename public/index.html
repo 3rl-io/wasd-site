@@ -1,5 +1,5 @@
-<rl-scene id="hello-world" hdr-environment="url: assets/city.hdr">
-    <rl-camera movement-controls="floor:15;"><rl-reticle /></rl-camera>
+<rl-scene id="hello-world" hdr-environment="url: assets/city.hdr" x-data="{boxVisible: 0}">
+    <rl-camera movement-controls="floor:15;"><rl-reticle></rl-reticle></rl-camera>
     <rl-plane interactor="fastTravel: 15" material="src: assets/marble.jpg; repeat: 18 18"
               height="500" width="500" rotation="-90 0 0" shadow="cast: false"></rl-plane>
     <rl-light type="ambient" color="#999"></rl-light>
@@ -7,30 +7,17 @@
         <rl-obj position="-75 20 10" rotation="0 20 0">
             <rl-video src="assets/widgets.mp4" height="27" width="48" border="1" border-color="#345"></rl-video>
         </rl-obj>
-        <rl-gltf-model src="assets/DamagedHelmet.glb" position="-25 20 0" scale="10 10 10" inherit-hdr shadow="receive: false" interactor="fastTravel: 30" follow-camera></rl-gltf-model>
-        <rl-sphere radius="5" color="grey" inherit-hdr position="0 15 0" id="mySphere"
-                   shadow="receive: false" interactor="fastTravel: 15"></rl-sphere>
-        <rl-box color="#012" inherit-hdr position="20 15 0" id="myBox" depth="5" width="5" height="5"
-                shadow="receive: false" interactor="fastTravel: 15" visible="false"></rl-box>
+        <rl-gltf-model src="assets/DamagedHelmet.glb" position="-25 20 0" scale="10 10 10"
+                       inherit-hdr shadow="receive: false" interactor="fastTravel: 30" follow-camera></rl-gltf-model>
+        <rl-sphere radius="5" color="grey" inherit-hdr position="0 15 0"
+                   shadow="receive: false" interactor="fastTravel: 15"
+                   @reticleenter="boxVisible = 1" @reticleleave="boxVisible = 0"></rl-sphere>
+        <rl-box color="#012" inherit-hdr position="20 15 0" depth="5" width="5" height="5"
+                shadow="receive: false" interactor="fastTravel: 15" x-bind:show="boxVisible"></rl-box>
         <rl-light position="20 30 0" intensity=".7" distance="200" type="point" cast-shadow="true"
                   color="#04f" shadow-radius="5" if-shadows-enabled></rl-light>
         <rl-iframe-tab src="https://3rl.io" position="70 20 10" rotation="0 -20 0" collider="40"></rl-iframe-tab>
     </rl-obj>
 </rl-scene>
-<script src="https://3rl.io/assets/general/scripts/3rl-core.min.js?v=1.02"></script>
-<script>
-    //Pick up where you left off. Useful in dev. Defaults to false
-    RL.settings.rememberPosition = true;
-
-    //Check RL.settings out for other persisted (localStorage) controls and settings
-    //anti-aliasing, gravity, invertY, look sensitivity, speed multiplier
-
-    //basic interactor events
-    const sphere = document.getElementById('mySphere');
-    function toggleBox(visible) {
-        document.getElementById('myBox').setAttribute('visible', visible);
-        document.getElementById('hello-world').renderer.shadowMap.needsUpdate = true;
-    }
-    sphere.addEventListener('reticleenter', () => toggleBox(true));
-    sphere.addEventListener('reticleleave', ()=> toggleBox(false));
-</script>
+<script src="alpine.min.js"></script>
+<script src="https://3rl.io/assets/general/scripts/3rl-core.min.js?v=1.03"></script>

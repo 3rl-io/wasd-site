@@ -6,7 +6,7 @@ This is the fastest way to build a 3D website.
 
 ![wasd-site gif](https://user-images.githubusercontent.com/41310107/225700844-f7115e34-1df7-4876-9cbb-a32c89fd5558.gif)
 
-## [30 lines of HTML/JS](https://github.com/3rl-io/wasd-site/blob/master/public/index.html)
+## [21 lines of HTML/JS](https://github.com/3rl-io/wasd-site/blob/master/public/index.html)
 
 - hdr environment
 - gltf models and envmaps
