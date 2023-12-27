@@ -8,7 +8,7 @@
             <rl-video src="assets/widgets.mp4" height="27" width="48" border="1" border-color="#345"></rl-video>
         </rl-obj>
         <rl-gltf-model src="assets/DamagedHelmet.glb" position="-25 20 0" scale="10 10 10"
-                       inherit-hdr shadow="receive: false" interactor="fastTravel: 30" follow-camera></rl-gltf-model>
+                       inherit-hdr shadow="receive: false" interactor="fastTravel: 30"></rl-gltf-model>
         <rl-sphere radius="5" color="grey" inherit-hdr position="0 15 0"
                    shadow="receive: false" interactor="fastTravel: 15"
                    @reticleenter="boxVisible = 1" @reticleleave="boxVisible = 0"></rl-sphere>
@@ -19,5 +19,5 @@
         <rl-iframe-tab src="https://3rl.io" position="70 20 10" rotation="0 -20 0" collider="40"></rl-iframe-tab>
     </rl-obj>
 </rl-scene>
-<script src="alpine.min.js"></script>
-<script src="https://3rl.io/assets/general/scripts/3rl-core.min.js?v=1.03"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script src="3rl-core.min.js?v=1.04"></script>
