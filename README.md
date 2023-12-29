@@ -1,6 +1,6 @@
 # WASD website example
 
-This is the fastest way to build a 3D website.
+The fastest way to build an interactive 3D website with PC gaming controls.
 
 [Live Demo](https://3rl.io/wasd-site.html)
 
